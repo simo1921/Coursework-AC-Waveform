@@ -9,3 +9,4 @@
 
 #ifndef WAVEFORM_H
 #define WAVEFORM_H
+#include <stddef.h>
