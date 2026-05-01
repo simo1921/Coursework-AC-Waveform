@@ -7,13 +7,18 @@
 double compute_mean(double *data, size_t n)
 sum += *(data + i);
 return sum / n;
-double compute_rms(double *data, size_t n) // 1
+double compute_rms(double *data, size_t n)
         double val = *(data + i);
-                sum += val * val; // 2
-return sqrt(sum / n); // 3
-double compute_peak_to_peak(double *data, size_t n) // 1
+                sum += val * val;
+return sqrt(sum / n);
+double compute_peak_to_peak(double *data, size_t n)
         double min = *data;
-        double max = *data; // 2
+        double max = *data;
 if (val < min) min = val;
-if (val > max) max = val; // 3
-return max - min; // 4
+if (val > max) max = val;
+return max - min;
+int detect_clipping(double *data, size_t n) //  1
+if (fabs(*(data + i)) >= 324.9) // 2
+return 1;
+...
+return 0; // 3
