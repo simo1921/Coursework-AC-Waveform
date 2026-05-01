@@ -20,3 +20,4 @@ typedef struct {
     double power_factor;
     double thd_percent;
 } WaveformSample;
+double compute_mean(double *data, size_t n);
