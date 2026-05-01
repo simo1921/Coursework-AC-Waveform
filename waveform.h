@@ -23,3 +23,4 @@ typedef struct {
 double compute_mean(double *data, size_t n);
 double compute_rms(double *data, size_t n);
 double compute_peak_to_peak(double *data, size_t n);
+int detect_clipping(double *data, size_t n);
