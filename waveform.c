@@ -11,3 +11,9 @@ double compute_rms(double *data, size_t n) // 1
         double val = *(data + i);
                 sum += val * val; // 2
 return sqrt(sum / n); // 3
+double compute_peak_to_peak(double *data, size_t n) // 1
+        double min = *data;
+        double max = *data; // 2
+if (val < min) min = val;
+if (val > max) max = val; // 3
+return max - min; // 4
