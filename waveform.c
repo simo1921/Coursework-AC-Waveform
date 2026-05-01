@@ -6,3 +6,4 @@
 #include <math.h>
 double compute_mean(double *data, size_t n)
 sum += *(data + i);
+return sum / n;
