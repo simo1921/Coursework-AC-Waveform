@@ -91,4 +91,4 @@ WaveformSample* load_csv(const char *filename, size_t *count) {
                 clipC ? "Yes" : "No");
 
         fclose(file);
-    }         // End of part  2
+    }         // End of part  2 (see the commit)
