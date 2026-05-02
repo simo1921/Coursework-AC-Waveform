@@ -1,0 +1,3 @@
+C:/Users/o2-touati/OneDrive - UWE Bristol/Coursework-AC-Waveform/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/o2-touati/OneDrive - UWE Bristol/Coursework-AC-Waveform/cmake-build-debug/CMakeFiles/Coursework-AC-Waveform.dir
+C:/Users/o2-touati/OneDrive - UWE Bristol/Coursework-AC-Waveform/cmake-build-debug/CMakeFiles/rebuild_cache.dir

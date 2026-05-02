@@ -1,0 +1,10 @@
+# ninja log v5
+283	708	7994264155489635	Coursework_AC_Waveform.exe	ccce72b5811d4451
+6	788	7993663458891524	CMakeFiles/Coursework_AC_Waveform.dir/waveform.c.obj	4c9fe53b8a12875b
+6	678	7994261586326134	CMakeFiles/Coursework_AC_Waveform.dir/io.c.obj	b2518fe8fc2ac5a7
+7	280	7994264151237503	CMakeFiles/Coursework_AC_Waveform.dir/main.c.obj	b343ead8d9839446
+2	3346	7994392536048377	build.ninja	f4f5b15c7bd76af8
+35	1370	7994392550838531	CMakeFiles/Coursework-AC-Waveform.dir/waveform.c.obj	2e52745682084c16
+18	1398	7994392551108544	CMakeFiles/Coursework-AC-Waveform.dir/main.c.obj	22ace14e4a485ddd
+1	1405	7994392551198468	CMakeFiles/Coursework-AC-Waveform.dir/io.c.obj	d9363a322d8a33df
+1405	1897	7994392556078499	Coursework-AC-Waveform.exe	f79afa9deecfa8f9
